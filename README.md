@@ -1,10 +1,10 @@
-Name
+Name: 
 Dynamo DB Global Table CDK Deploy using Typescript with custom IAM role/policy naming convention
 
-Description
+Description:
 When trying to deploy a Dynamo DB global table, CDK generates nested stacks with many unexpected default roles. If your customer AWS environment mandates to deploy roles and policies with a fixed set of custom prefixes, then this is the work-around.
 
-Usage
+Usage:
 1. Pre-requisites:
   a. CDK v2 Installation on your machine from which you want to run this script
   https://docs.aws.amazon.com/cdk/v2/guide/getting_started.html
@@ -23,5 +23,5 @@ Usage
   cdk deploy <Deploys the specified stack(s)>
   NOTE: Respond to another prompts during the CDK deploy stage. For example enter y/n to deploy the table?
 
-Roadmap
+Roadmap: 
 Add an existing permissions boundary to the newly created roles
